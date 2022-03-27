@@ -14,7 +14,10 @@ export function Home() {
   const [tasks, setTasks] = useState<Task[]>([]);
 
   function handleAddTask(newTaskTitle: string) {
-    const taskWithSameTitle = tasks.find((task) => task.title === newTaskTitle);
+    const taskWithSameTitle = tasks.find(
+      (task) =>
+        task.title.toLocaleLowerCase() === newTaskTitle.toLocaleLowerCase()
+    );
 
     if (taskWithSameTitle) {
       return Alert.alert(
@@ -75,7 +78,6 @@ export function Home() {
     }
 
     taskToBeUpdated.title = taskNewTitle;
-
     setTasks(updatedTasks);
   }
 
