@@ -15,7 +15,7 @@
 	
 Clone this repo
 ```bash
-  git clone https://github.com/Alex-dll/Api-Filmes
+  git clone https://github.com/Alex-dll/Ignite-RN-Todos
 ```
 
 Go to project directory
