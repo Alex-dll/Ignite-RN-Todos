@@ -1,15 +1,13 @@
-
-
-# Welcome to to.do		
+# Welcome to to.do	
 
 -   Your favorite app to your tasks
 
 ### Application Details
 
+![Capa](https://github.com/Alex-dll/Ignite-RN-Todos/blob/main/src/assets/Capa.png?raw=true)
 
 #### Behaviours
 
-![Capa](https://github.com/Alex-dll/Ignite-RN-Todos/blob/main/src/assets/Capa.png?raw=true)
 
 ![Behaviors](https://github.com/Alex-dll/Ignite-RN-Todos/blob/main/src/assets/Behavious.gif?raw=true)
 
